@@ -58,6 +58,44 @@ CREATE TABLE store_product (
         REFERENCES stores (id) ON UPDATE CASCADE ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+USE shop_db;
+
+INSERT INTO stores (name, adress) VALUES
+('Supermarket Central', 'Lenina St, 10'),
+('Local Grocery', 'Mira Ave, 25'),
+('Mega Hypermarket', 'Entuziastov Hwy, 50');
+
+INSERT INTO products (name, count, price) VALUES
+('Milk 3.2%', 100, 89.90),
+('Borodinsky Bread', 50, 45.00),
+('Ground Coffee 250g', 30, 350.00),
+('Milk Chocolate', 200, 99.99),
+('Green Apples (kg)', 80, 129.00),
+('Coca-Cola 1.5L', 150, 110.00),
+('Mineral Water 1L', 300, 45.00),
+('Chicken Breast (kg)', 40, 320.00),
+('Pasta 500g', 120, 75.00),
+('Olive Oil 500ml', 25, 499.90),
+('Black Tea 100 bags', 60, 180.00),
+('White Rice 1kg', 90, 95.00);
+
+INSERT INTO store_product (product_id, store_id, count, price) VALUES
+(1, 1, 40, 89.90),
+(2, 1, 20, 45.00),
+(3, 1, 10, 360.00),
+(4, 1, 80, 99.99),
+
+(1, 2, 15, 95.00),
+(2, 2, 10, 48.00),
+(6, 2, 25, 115.00),
+(7, 2, 50, 50.00),
+
+(1, 3, 45, 85.00),
+(3, 3, 20, 340.00),
+(4, 3, 90, 89.90),
+(6, 3, 80, 105.00),
+(7, 3, 120, 42.00);
+
 SHOW TABLES;
 
 USE example_db;
