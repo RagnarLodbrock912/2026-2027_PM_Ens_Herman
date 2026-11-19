@@ -1,4 +1,6 @@
 sem_1/CNN/lab_01/mnist
 sem_1/CNN/lab_02/mnist
 sem_1/CNN/lab_03/cifar
+sem_1/CNN/lab_04/Cat_Dog_data
 venv
+venv-wsl
