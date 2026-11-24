@@ -5,5 +5,14 @@ sem_1/CNN/lab_04/Cat_Dog_data
 sem_1/CNN/lab_05/data
 sem_1/CNN/lab_06/PetImages
 sem_1/CNN/lab_06/kagglecatsanddogs_5340.zip
+sem_1/CNN/lab_07/__MACOSX
+sem_1/CNN/lab_07/imagenet-mini
+sem_1/CNN/lab_07/train
+sem_1/CNN/lab_07/train_masks
+sem_1/CNN/lab_07/CARVANA.zip
+sem_1/CNN/lab_07/imagenet-mini.zip
+sem_1/CNN/lab_07/imagenet1000_clsidx_to_labels.txt
+sem_1/CNN/lab_07/PennFudanPed
+sem_1/CNN/lab_07/PennFudanPed.zip
 venv
 venv-wsl
