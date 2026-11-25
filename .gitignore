@@ -14,5 +14,7 @@ sem_1/CNN/lab_07/imagenet-mini.zip
 sem_1/CNN/lab_07/imagenet1000_clsidx_to_labels.txt
 sem_1/CNN/lab_07/PennFudanPed
 sem_1/CNN/lab_07/PennFudanPed.zip
+sem_1/CNN/lab_08/cifar
+sem_1/CNN/lab_08/lightning_logs
 venv
 venv-wsl
